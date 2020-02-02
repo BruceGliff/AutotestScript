@@ -6,3 +6,5 @@ Directories: {./program, ./Test, DataSet/, DataSet/tests/, DataSet/output/, Data
 Check files must be **without extension**.
 
 It calls ./program DataSet/tests/\* < DataSet/input/\* > DataSet/output/\*.out and compares output with check.
+
+For default launching run **./Test**
