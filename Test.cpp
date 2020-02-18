@@ -60,8 +60,8 @@ ErrorType Launch()
     int const inputAmount = input.size();
     if (!testsAmount)
         return ErrorType::NoTests;
-    if (testsAmount != inputAmount)
-        return ErrorType::ErData;       
+    // if (testsAmount != inputAmount)
+    //     return ErrorType::ErData;       
 
     system("rm DataSet/output/*");
 
